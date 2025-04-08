@@ -32,14 +32,7 @@ a {
   margin: 0 auto -7.4rem;
 }
 
-.tagline {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 1.2rem;
-  font-style: italic;
-  color: white; /* Optional: improve visibility */
-}
+
 
 .buttons .btn {
   display: inline-block;
