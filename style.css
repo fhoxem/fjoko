@@ -20,6 +20,7 @@ a {
 }
 
 .overlay {
+  position: relative;
   padding: 2rem;
   text-align: center;
   color: #fff;
@@ -27,20 +28,17 @@ a {
 }
 
 .logo {
-  max-width: 400px;
+  max-width: 390px;
   margin: 0 auto -7.4rem;
 }
 
 .tagline {
-  font-size: 1.9rem;
-  margin-bottom: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.2rem;
   font-style: italic;
-   text-shadow: 
-    0.9px 0.9px 0px rgba(0, 0, 0, 0.8),  /* Shadow on the bottom right */
-    -0.9px -0.9px 0px rgba(0, 0, 0, 0.8), /* Shadow on the top left */
-    0.9px -0.9px 0px rgba(0, 0, 0, 0.8),  /* Shadow on the top right */
-    -0.9px 0.9px 0px rgba(0, 0, 0, 0.8);  /* Shadow on the bottom left */
-
+  color: white; /* Optional: improve visibility */
 }
 
 .buttons .btn {
